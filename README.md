@@ -120,7 +120,7 @@
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
   * The output folder will be generated.
-  * Automatically search for image and pointcloud topic:
+  * In case automatically search for image and pointcloud topic:
 ```
     ros2 run marscalib preprocess <dataset location> -a 
 ```
@@ -128,11 +128,11 @@
 ```
     ros2 run marscalib preprocess <dataset location> --image_topic <image_topic> --points_topic <points_topic>
 ```
-  Example
+  * Example:
 ```
     ros2 run marscalib preprocess <dataset location> --image_topic /camera/color/image_raw --points_topic /ouster/points
 ```
-  * Fill intrinsic parameters of camera in file <input_preprocess/intrinsic.json> 
+  * Fill intrinsic parameters of camera in file ``` .input_preprocess/intrinsic.json ```.
 <br/>
 
 
@@ -141,7 +141,7 @@
 ```
     ros2 run marscalib amg.py --checkpoint <model checkpoint location> --model-type <model type> --input <preprocess folder location>
 ```
-  * Example
+  * Example:
 ```
     ros2 run marscalib amg.py --checkpoint ~/marscalib_ws/src/sphere_calibration/segment_anything/model/sam_vit_h_4b8939.pth --model-type vit_h --input ~/sphere_calib/ouster_preprocess
 ```
@@ -154,9 +154,9 @@
 ```
 <br/>
 
-**4. Range image & Hough transform**
+**4. Range image generation & Hough transform**
   * Generate range image from the accumulated pointcloud and search for circle in the range image. Then detect the points that are inside the detected circle.
-  * Enter LiDAR type. 
+  * LiDAR type. 
     * o : ouster
     * m : mid360
     * s : mlx
@@ -164,7 +164,7 @@
     ros2 run hough.py <preprocess folder location> <LiDAR type>
 ```
 
-  * Example
+  * Example:
 ```
     ros2 run hough.py ~/sphere_calib/ouster_preprocess/ o
 ```
