@@ -123,7 +123,9 @@
 ```
     ros2 run marscalib preprocess <dataset location> -a 
 ```
+
     * In case multiple topics exist, the target topic must be explicitly specified:
+
 ```
     ros2 run marscalib preprocess <dataset location> \
       --image_topic <image_topic> \
