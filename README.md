@@ -21,12 +21,17 @@
   
 </div>
 
-## 🚀 Contents Table
-### 🛠️ [**Prerequisites**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-prerequisites)
-### 📷 [**Data Acquisition**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-data-acquisition)
-### ✏️ [**Introduction**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-introduction)
-### ✉️ [**Contact**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-contact)
+<br/>
+<br/>
 
+## 🚀 Contents Table
+1. 🛠️ [**Prerequisites**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-prerequisites)
+2. 📷 [**Data Acquisition**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-data-acquisition)
+3. ✏️ [**Introduction**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-introduction)
+4. ✉️ [**Contact**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-contact)
+
+<br/>
+<br/>
 
 ## 🛠️ Prerequisites
 * __ROS2__ environment
@@ -45,6 +50,8 @@
     * https://drive.google.com/drive/u/2/folders/1cf9hkyxft-V8sNcHXUFzVnjNg9rRtZ26
     * There are three dataset utilizing three different LiDARs: OS1-32, Mid-360, MLX-120.
     
+<br/>
+<br/>
 
 ## 📷 Data Acquisition
 * The camera's intrinsic parameters must be known in advance.
@@ -54,6 +61,8 @@
 * Place the spherical target within about 30 cm, ensuring it is visible to both sensors. (If placed too far, the sphere may not be captured for LiDAR)
 
 
+<br/>
+<br/>
 
 
 ## ✏️ Introduction
@@ -77,6 +86,7 @@
 
   * Place downloaded model(pth) file in ``` <sphere_calibration/model> ```.
 
+<br/>
 
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
@@ -85,6 +95,7 @@
 ```
     ros2 run sphere_calibration preprocess <dataset location>
 ```
+<br/>
 
 
 **2. SAM**
@@ -96,12 +107,14 @@
 ```
     python ~/sphere_ws/src/sphere_calibration/scripts/amg.py --checkpoint ~/marscalib_ws/src/sphere_calibration/segment_anything/model/sam_vit_h_4b8939.pth --model-type vit_h --input ~/sphere_calib/ouster_preprocess
 ```
+<br/>
 
 **3. Camera ellipse center detection**
   * Detect image with ellipses from the mask image, then extract center of the ellipse.
 ```
     ros2 run sphere_calibration camera <preprocess folder location>
 ```
+<br/>
 
 **4. Range image & Hough transform**
   * Generate range image from the accumulated pointcloud and search for circle in the range image. Then detect the points that are inside the detected circle.
@@ -118,6 +131,7 @@
     python ~/marscalib_ws/src/sphere_calibration/scripts/hough.py ~/sphere_calib/ouster_preprocess/ o
 ```
 
+<br/>
 
 
 **5. LiDAR sphere center detection**
@@ -137,12 +151,15 @@
 ```
     ros2 run sphere_calibration ouster ~/sphere_calib/ouster_preprocess/ o 0.1 -v
 ```
+<br/>
 
 **6. [R|t] calculation**
   * Calculate transformation matrix with 2D-3D center pair.
 ```
     ros2 run sphere_calibration rt  <preprocess folder location>
 ```
+<br/>
+<br/>
 
 
 ##  ✉️ Contact
