@@ -28,7 +28,7 @@
 
 ## 🚀 Contents Table
 1. 🛠️ [**Prerequisites**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#%EF%B8%8F-prerequisites)
-2. 📷 [**Data Acquisition**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#data-acquisition)
+2. 📷 [**Data Acquisition**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#-data-acquisition)
 3. ✏️ [**Introduction**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#%EF%B8%8F-introduction)
 4. ✉️ [**Contact**](https://github.com/sparolab/MARSCalib?tab=readme-ov-file#%EF%B8%8F-contact)
 
@@ -46,7 +46,7 @@
 
 * Ceres
 
-* SAM (https://github.com/facebookresearch/segment-anything)
+* [SAM] (https://github.com/facebookresearch/segment-anything)
    
 * Sample dataset
     * https://drive.google.com/drive/u/2/folders/1cf9hkyxft-V8sNcHXUFzVnjNg9rRtZ26
