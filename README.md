@@ -17,7 +17,7 @@
 
 **[Spatial AI and Robotics Lab (SPARO)](https://sparolab.github.io/)**
 
-  <p align="center"><img src="fig/main.png") alt="animated" width="75%" /></p>
+  <p align="center"><img src="fig/main.png") alt="animated"/></p>
   
 </div>
 
@@ -86,7 +86,7 @@
         ...
     ```
 
-<p align="center"><img src="fig/data.png") alt="animated" width="75%" /></p>
+<p align="center"><img src="fig/data.png") alt="animated"/></p>
 <p align="right">(<a href="#readme-table">back to table</a>)</p>
 
 <br/>
