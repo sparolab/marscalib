@@ -117,18 +117,17 @@
 
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
-  * The output folder will be generated.
   * There are two ways:
-    1️⃣ To automatically detect image and point cloud topics:
-  ```
-      ros2 run marscalib preprocess <dataset location> -a 
-  ```
-    2️⃣ To manually specify topics when multiple are present:
-  ```
-      ros2 run marscalib preprocess <dataset location> \
-        --image_topic <image_topic> \
-        --points_topic <points_topic>
-  ```
+  * To automatically detect image and point cloud topics:
+```
+    ros2 run marscalib preprocess <dataset location> -a 
+```
+  * To manually specify topics when multiple are present:
+```
+    ros2 run marscalib preprocess <dataset location> \
+      --image_topic <image_topic> \
+      --points_topic <points_topic>
+```
   * Example:
 ```
     ros2 run marscalib preprocess ~/data/sphere \
