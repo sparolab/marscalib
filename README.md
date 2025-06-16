@@ -118,11 +118,12 @@
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
   * The output folder will be generated.
-  * In case automatically search for image and pointcloud topic:
+  * Command
+    * In case automatically search for image and pointcloud topic:
 ```
     ros2 run marscalib preprocess <dataset location> -a 
 ```
-  * In case multiple topics exist, the target topic must be explicitly specified:
+    * In case multiple topics exist, the target topic must be explicitly specified:
 ```
     ros2 run marscalib preprocess <dataset location> \
       --image_topic <image_topic> \
@@ -163,8 +164,8 @@
 <br/>
 
 **4. Range image generation & Hough transform**
-  * Generate range image from the accumulated pointcloud and search for circle in the range image. Then detect the points that are inside the detected circle.
-  * LiDAR type. 
+  * Generate range image from the accumulated pointcloud and search for circle in the range image. The points inside the detected circle consist sphere.
+  * Enter LiDAR type. 
     * o : ouster
     * m : mid360
     * s : mlx
@@ -174,7 +175,7 @@
 
   * Example:
 ```
-    ros2 run hough.py ~/marscalib/ouster_preprocess/ o
+    ros2 run hough.py ~/data/sphere_preprocess o
 ```
 
 <br/>
@@ -188,14 +189,13 @@
     * s : mlx
   * Enter target's radius.
   * If you want to observet the output of every stage, add "-v" in the command line.
-
 ```
     ros2 run marscalib ouster <preprocess folder location> <LiDAR type> <target's radius>
 ```
 
   * Example
 ```
-    ros2 run marscalib ouster ~/marscalib/ouster_preprocess/ o 0.1 -v
+    ros2 run marscalib ouster ~/data/sphere_preprocess o 0.1 -v
 ```
 <br/>
 
