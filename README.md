@@ -74,17 +74,15 @@
 
 * Place the spherical target within about 30 cm, ensuring it is visible to both sensors. (If placed too far, the sphere may not be captured for LiDAR)
 
-* Remain the two sensors(camera and LiDAR) and the spherical target __stationary__ while data is collected for more than 40 seconds.
+* Remain the two sensors(camera and LiDAR) and the spherical target ❗__stationary__❗ while data is collected for more than 40 seconds.
 
-* After acquiring the data, arrange the bags as follows (recommended: 10 samples).
+* After acquiring the data, arrange the bags as follows (recommended: at least 10 samples).
     ```
     📂 Dataset
     ┣  1.db3 (file name is not necessary)
     ┣  2.db3
     ┣  3.db3
     ┣  4.db3
-    ┣  5.db3
-    ┣  6.db3
         ...
     ```
 
@@ -126,24 +124,34 @@
 ```
   * In case multiple topics exist, the target topic must be explicitly specified:
 ```
-    ros2 run marscalib preprocess <dataset location> --image_topic <image_topic> --points_topic <points_topic>
+    ros2 run marscalib preprocess <dataset location> \
+      --image_topic <image_topic> \
+      --points_topic <points_topic>
 ```
   * Example:
 ```
-    ros2 run marscalib preprocess <dataset location> --image_topic /camera/color/image_raw --points_topic /ouster/points
+    ros2 run marscalib preprocess ~/data/sphere \
+      --image_topic /camera/color/image_raw \
+      --points_topic /ouster/points
 ```
-  * Fill intrinsic parameters of camera in file ``` .input_preprocess/intrinsic.json ```.
+  * ❗Fill intrinsic parameters of camera in file ``` ./input_preprocess/intrinsic.json ```.
 <br/>
 
 
 **2. SAM**
   * Extract mask images from the raw image.
 ```
-    ros2 run marscalib amg.py --checkpoint <model checkpoint location> --model-type <model type> --input <preprocess folder location>
+    ros2 run marscalib amg.py \
+      --checkpoint <model checkpoint location> \
+      --model-type <model type> \
+      --input <preprocess folder location>
 ```
   * Example:
 ```
-    ros2 run marscalib amg.py --checkpoint ~/marscalib_ws/src/sphere_calibration/segment_anything/model/sam_vit_h_4b8939.pth --model-type vit_h --input ~/sphere_calib/ouster_preprocess
+    ros2 run marscalib amg.py \
+      --checkpoint ~/ros2_ws/src/marscalib/segment_anything/model/sam_vit_h_4b8939.pth \
+      --model-type vit_h \
+      --input ~/data/sphere_preprocess
 ```
 <br/>
 
@@ -166,7 +174,7 @@
 
   * Example:
 ```
-    ros2 run hough.py ~/sphere_calib/ouster_preprocess/ o
+    ros2 run hough.py ~/marscalib/ouster_preprocess/ o
 ```
 
 <br/>
@@ -187,7 +195,7 @@
 
   * Example
 ```
-    ros2 run marscalib ouster ~/sphere_calib/ouster_preprocess/ o 0.1 -v
+    ros2 run marscalib ouster ~/marscalib/ouster_preprocess/ o 0.1 -v
 ```
 <br/>
 

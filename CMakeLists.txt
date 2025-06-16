@@ -12,6 +12,7 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(PCL 1.14 REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
@@ -49,11 +50,12 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(preprocess src/preprocess.cpp)
+ament_target_dependencies(preprocess rclcpp rosbag2_cpp cv_bridge pcl_conversions)
+
 add_executable(lidar src/lidar_center.cpp)
 ament_target_dependencies(lidar rclcpp PCL)
 
-add_executable(vlp src/lidar_vlp.cpp)
-ament_target_dependencies(lidar rclcpp PCL)
 
 add_executable(camera src/camera_center.cpp)
 ament_target_dependencies(camera rclcpp PCL)
@@ -64,20 +66,15 @@ ament_target_dependencies(camera_user rclcpp PCL)
 add_executable(rt src/Rt.cpp)
 ament_target_dependencies(rt rclcpp PCL)
 
-add_executable(color src/color_pcd.cpp)
-ament_target_dependencies(color rclcpp PCL)
 
-add_executable(preprocess src/preprocess.cpp)
-ament_target_dependencies(preprocess rclcpp rosbag2_cpp cv_bridge pcl_conversions)
+
 
 
 target_link_libraries(preprocess ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES} ${cv_bridge_LIBRARIES})
 target_link_libraries(lidar ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
-target_link_libraries(vlp ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
 target_link_libraries(camera ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
 target_link_libraries(camera_user ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
 target_link_libraries(rt fmt ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${CERES_LIBRARIES} ${GTSAM_LIBRARIES}  ${rclcpp_LIBRARIES})
-target_link_libraries(color ${PCL_LIBRARIES} ${OpenCV_LIBS}  ${rclcpp_LIBRARIES})
 
 
 target_include_directories(rt PUBLIC
@@ -107,5 +104,5 @@ install(
 ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS scripts/amg.py DESTINATION lib/${PROJECT_NAME})
 install(PROGRAMS scripts/hough.py DESTINATION lib/${PROJECT_NAME})
-ament_export_libraries(marscalib)
+ament_export_libraries(sphere_calibration)
 ament_package()
