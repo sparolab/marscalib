@@ -35,18 +35,19 @@
 <br/>
 <br/>
 
+
 ## 🛠️ Prerequisites
-* __ROS2__
+* [**ROS2**](https://docs.ros.org/en/foxy/index.html)
 
 * PCL
 
 * OpenCV
 
-* GTSAM
+* [**GTSAM**](https://github.com/borglab/gtsam)
 
-* Ceres
+* [**Ceres**](http://ceres-solver.org/installation.html)
 
-* [SAM] (https://github.com/facebookresearch/segment-anything)
+* [**SAM**](https://github.com/facebookresearch/segment-anything)
    
 * Sample dataset
     * https://drive.google.com/drive/u/2/folders/1cf9hkyxft-V8sNcHXUFzVnjNg9rRtZ26
@@ -57,13 +58,25 @@
 <br/>
 <br/>
 
+
 ## 📷 Data Acquisition
 * The camera's intrinsic parameters must be known in advance.
 
-* Remain the two sensors(camera and LiDAR) and the spherical target stationary while data is collected for more than 40 seconds.
-
 * Place the spherical target within about 30 cm, ensuring it is visible to both sensors. (If placed too far, the sphere may not be captured for LiDAR)
 
+* Remain the two sensors(camera and LiDAR) and the spherical target stationary while data is collected for more than 40 seconds.
+
+* After acquiring the data, arrange the bags as follows (recommended: 10 samples).
+    ```
+    📂 Dataset
+    ┣  1.db3 (name is not necessary)
+    ┣  2.db3
+    ┣  3.db3
+    ┣  4.db3
+    ┣  5.db3
+    ┣  6.db3
+          ...
+    ```
 
 <p align="right">(<a href="#readme-table">back to table</a>)</p>
 
@@ -73,14 +86,14 @@
 
 ## ✏️ Introduction
 
-**0. Create workspace & place model in model folder**
+**0. Create workspace & download SAM model weight**
   * Extract image and accumlated point cloud from ros2 bag.
 ```
-    mkdir ~/sphere_calib/src
+    cd ~/ros2_ws/src
 ```
 
 ```
-    git clone -b master --single-branch https://github.com/sparolab/-private-MARSCalib
+    git clone https://github.com/sparolab/MARSCalib --recursive
 ``` 
 
 ```
