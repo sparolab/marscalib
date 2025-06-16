@@ -44,18 +44,18 @@
 * OpenCV
 
 * json
-  '''
+  ```
   sudo apt-get install nlohmann-json3-dev
-  '''
+  ```
 
 * [**GTSAM**](https://github.com/borglab/gtsam)
 
 * [**Ceres**](http://ceres-solver.org/installation.html)
 
 * [**SAM**](https://github.com/facebookresearch/segment-anything)
-   '''
+   ```
    pip install git+https://github.com/facebookresearch/segment-anything.git
-   '''
+   ```
 
 * Sample dataset
     * https://drive.google.com/drive/u/2/folders/1cf9hkyxft-V8sNcHXUFzVnjNg9rRtZ26
@@ -70,9 +70,11 @@
 ## 📷 Data Acquisition
 * The camera's intrinsic parameters must be known in advance.
 
+* Two topics are required in the bag: one for image(sensor_msgs/Image), and one for point clouds(sensor_msgs/PointCloud2).
+
 * Place the spherical target within about 30 cm, ensuring it is visible to both sensors. (If placed too far, the sphere may not be captured for LiDAR)
 
-* Remain the two sensors(camera and LiDAR) and the spherical target stationary while data is collected for more than 40 seconds.
+* Remain the two sensors(camera and LiDAR) and the spherical target __stationary__ while data is collected for more than 40 seconds.
 
 * After acquiring the data, arrange the bags as follows (recommended: 10 samples).
     ```
@@ -118,10 +120,19 @@
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
   * The output folder will be generated.
-  
+  * Automatically search for image and pointcloud topic:
 ```
-    ros2 run marscalib preprocess <dataset location>
+    ros2 run marscalib preprocess <dataset location> -a 
 ```
+  * In case multiple topics exist, the target topic must be explicitly specified:
+```
+    ros2 run marscalib preprocess <dataset location> --image_topic <image_topic> --points_topic <points_topic>
+```
+  Example
+```
+    ros2 run marscalib preprocess <dataset location> --image_topic /camera/color/image_raw --points_topic /ouster/points
+```
+  * Fill intrinsic parameters of camera in file <input_preprocess/intrinsic.json> 
 <br/>
 
 
