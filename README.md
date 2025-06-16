@@ -43,12 +43,20 @@
 
 * OpenCV
 
+* json
+  '''
+  sudo apt-get install nlohmann-json3-dev
+  '''
+
 * [**GTSAM**](https://github.com/borglab/gtsam)
 
 * [**Ceres**](http://ceres-solver.org/installation.html)
 
 * [**SAM**](https://github.com/facebookresearch/segment-anything)
-   
+   '''
+   pip install git+https://github.com/facebookresearch/segment-anything.git
+   '''
+
 * Sample dataset
     * https://drive.google.com/drive/u/2/folders/1cf9hkyxft-V8sNcHXUFzVnjNg9rRtZ26
     * There are three dataset utilizing three different LiDARs: OS1-32, Mid-360, MLX-120.
@@ -69,13 +77,13 @@
 * After acquiring the data, arrange the bags as follows (recommended: 10 samples).
     ```
     📂 Dataset
-    ┣  1.db3 (name is not necessary)
+    ┣  1.db3 (file name is not necessary)
     ┣  2.db3
     ┣  3.db3
     ┣  4.db3
     ┣  5.db3
     ┣  6.db3
-          ...
+        ...
     ```
 
 <p align="right">(<a href="#readme-table">back to table</a>)</p>
@@ -93,7 +101,7 @@
 ```
 
 ```
-    git clone https://github.com/sparolab/MARSCalib --recursive
+    git clone https://github.com/sparolab/MARSCalib
 ``` 
 
 ```
@@ -103,16 +111,16 @@
     * Default Vit-h model: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
     * If you want to use other model, please refer to the relevant page : https://github.com/facebookresearch/segment-anything
 
-  * Place downloaded model(pth) file in ``` <sphere_calibration/model> ```.
+  * Place downloaded model(pth) file in ``` ./marscalib/segment_anything/model ```.
 
 <br/>
 
 **1. Preprocess**
   * Extract image and accumlated point cloud from ros2 bag.
   * The output folder will be generated.
-
+  
 ```
-    ros2 run sphere_calibration preprocess <dataset location>
+    ros2 run marscalib preprocess <dataset location>
 ```
 <br/>
 
@@ -120,18 +128,18 @@
 **2. SAM**
   * Extract mask images from the raw image.
 ```
-    python ~/marscalib_ws/src/sphere_calibration/scripts/amg.py --checkpoint <model checkpoint location> --model-type <model type> --input <preprocess folder location>
+    ros2 run marscalib amg.py --checkpoint <model checkpoint location> --model-type <model type> --input <preprocess folder location>
 ```
   * Example
 ```
-    python ~/sphere_ws/src/sphere_calibration/scripts/amg.py --checkpoint ~/marscalib_ws/src/sphere_calibration/segment_anything/model/sam_vit_h_4b8939.pth --model-type vit_h --input ~/sphere_calib/ouster_preprocess
+    ros2 run marscalib amg.py --checkpoint ~/marscalib_ws/src/sphere_calibration/segment_anything/model/sam_vit_h_4b8939.pth --model-type vit_h --input ~/sphere_calib/ouster_preprocess
 ```
 <br/>
 
 **3. Camera ellipse center detection**
   * Detect image with ellipses from the mask image, then extract center of the ellipse.
 ```
-    ros2 run sphere_calibration camera <preprocess folder location>
+    ros2 run marscalib camera <preprocess folder location>
 ```
 <br/>
 
@@ -142,12 +150,12 @@
     * m : mid360
     * s : mlx
 ```
-    python ~/marscalib_ws/src/sphere_calibration/scripts/hough.py <preprocess folder location> <LiDAR type>
+    ros2 run hough.py <preprocess folder location> <LiDAR type>
 ```
 
   * Example
 ```
-    python ~/marscalib_ws/src/sphere_calibration/scripts/hough.py ~/sphere_calib/ouster_preprocess/ o
+    ros2 run hough.py ~/sphere_calib/ouster_preprocess/ o
 ```
 
 <br/>
@@ -163,19 +171,19 @@
   * If you want to observet the output of every stage, add "-v" in the command line.
 
 ```
-    ros2 run sphere_calibration ouster <preprocess folder location> <LiDAR type> <target's radius>
+    ros2 run marscalib ouster <preprocess folder location> <LiDAR type> <target's radius>
 ```
 
   * Example
 ```
-    ros2 run sphere_calibration ouster ~/sphere_calib/ouster_preprocess/ o 0.1 -v
+    ros2 run marscalib ouster ~/sphere_calib/ouster_preprocess/ o 0.1 -v
 ```
 <br/>
 
 **6. [R|t] calculation**
   * Calculate transformation matrix with 2D-3D center pair.
 ```
-    ros2 run sphere_calibration rt  <preprocess folder location>
+    ros2 run marscalib rt  <preprocess folder location>
 ```
 
 <p align="right">(<a href="#readme-table">back to table</a>)</p>
