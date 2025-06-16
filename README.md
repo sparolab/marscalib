@@ -74,7 +74,7 @@
 
 * Place the spherical target within about 30 cm, ensuring it is visible to both sensors. (If placed too far, the sphere may not be captured for LiDAR)
 
-* Remain the two sensors(camera and LiDAR) and the spherical target ❗__stationary__❗ while data is collected for more than 40 seconds.
+* Remain the two sensors(camera and LiDAR) and the spherical target __❗stationary❗__ while data is collected for more than 40 seconds.
 
 * After acquiring the data, arrange the bags as follows (recommended: at least 10 samples).
     ```
