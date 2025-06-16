@@ -620,11 +620,11 @@
 			[
 				{
 					"backtrace" : 73,
-					"path" : "/home/jsh/marscalib_ws/src/sphere_calibration/include"
+					"path" : "/home/jsh/marscalib_ws/src/marscalib/include"
 				},
 				{
 					"backtrace" : 73,
-					"path" : "/home/jsh/marscalib_ws/src/sphere_calibration/thirdparty/Sophus"
+					"path" : "/home/jsh/marscalib_ws/src/marscalib/thirdparty/Sophus"
 				},
 				{
 					"backtrace" : 77,
@@ -852,7 +852,7 @@
 		[
 			{
 				"backtrace" : 2,
-				"path" : "lib/sphere_calibration"
+				"path" : "lib/marscalib"
 			}
 		],
 		"prefix" : 

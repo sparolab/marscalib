@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/test_results"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/test_results"
 		},
 		{
 			"name" : "BUILD_TESTING",
@@ -227,7 +227,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1103,7 +1103,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "sphere_calibration"
+			"value" : "marscalib"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -11914,7 +11914,7 @@
 			"value" : "/opt/ros/humble/share/spdlog_vendor/cmake"
 		},
 		{
-			"name" : "sphere_calibration_BINARY_DIR",
+			"name" : "marscalib_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11923,10 +11923,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug"
 		},
 		{
-			"name" : "sphere_calibration_IS_TOP_LEVEL",
+			"name" : "marscalib_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -11938,7 +11938,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "sphere_calibration_SOURCE_DIR",
+			"name" : "marscalib_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -11947,7 +11947,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jsh/marscalib_ws/src/sphere_calibration"
+			"value" : "/home/jsh/marscalib_ws/src/marscalib"
 		},
 		{
 			"name" : "statistics_msgs_DIR",

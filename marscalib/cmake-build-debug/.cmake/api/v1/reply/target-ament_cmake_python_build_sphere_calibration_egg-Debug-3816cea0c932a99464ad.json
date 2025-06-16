@@ -41,11 +41,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ament_cmake_python_copy_sphere_calibration::@6890427a1f51a3e7e1df"
+			"id" : "ament_cmake_python_copy_marscalib::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "ament_cmake_python_build_sphere_calibration_egg::@6890427a1f51a3e7e1df",
-	"name" : "ament_cmake_python_build_sphere_calibration_egg",
+	"id" : "ament_cmake_python_build_marscalib_egg::@6890427a1f51a3e7e1df",
+	"name" : "ament_cmake_python_build_marscalib_egg",
 	"paths" : 
 	{
 		"build" : ".",
@@ -73,13 +73,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_build_sphere_calibration_egg",
+			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_build_marscalib_egg",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_build_sphere_calibration_egg.rule",
+			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_build_marscalib_egg.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

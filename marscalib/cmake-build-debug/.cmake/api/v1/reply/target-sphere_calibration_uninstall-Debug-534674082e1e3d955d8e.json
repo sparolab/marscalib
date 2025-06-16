@@ -69,8 +69,8 @@
 			}
 		]
 	},
-	"id" : "sphere_calibration_uninstall::@6890427a1f51a3e7e1df",
-	"name" : "sphere_calibration_uninstall",
+	"id" : "marscalib_uninstall::@6890427a1f51a3e7e1df",
+	"name" : "marscalib_uninstall",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/sphere_calibration_uninstall",
+			"path" : "cmake-build-debug/CMakeFiles/marscalib_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/sphere_calibration_uninstall.rule",
+			"path" : "cmake-build-debug/CMakeFiles/marscalib_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

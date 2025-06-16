@@ -337,7 +337,7 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"preprocess"
@@ -354,13 +354,13 @@
 				"id" : "preprocess::@6890427a1f51a3e7e1df",
 				"index" : 6
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"camera"
@@ -377,13 +377,13 @@
 				"id" : "camera::@6890427a1f51a3e7e1df",
 				"index" : 2
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"camera_user"
@@ -400,13 +400,13 @@
 				"id" : "camera_user::@6890427a1f51a3e7e1df",
 				"index" : 3
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"lidar"
@@ -423,13 +423,13 @@
 				"id" : "lidar::@6890427a1f51a3e7e1df",
 				"index" : 5
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"rt"
@@ -446,13 +446,13 @@
 				"id" : "rt::@6890427a1f51a3e7e1df",
 				"index" : 7
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"color"
@@ -469,13 +469,13 @@
 				"id" : "color::@6890427a1f51a3e7e1df",
 				"index" : 4
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"vlp"
@@ -492,13 +492,13 @@
 				"id" : "vlp::@6890427a1f51a3e7e1df",
 				"index" : 10
 			},
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"type" : "cxxModuleBmi"
 		},
 		{
 			"backtrace" : 5,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/pythonpath.sh"
@@ -508,7 +508,7 @@
 		{
 			"backtrace" : 6,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/pythonpath.dsv"
@@ -518,11 +518,11 @@
 		{
 			"backtrace" : 8,
 			"component" : "Unspecified",
-			"destination" : "local/lib/python3.10/dist-packages/sphere_calibration-0.0.0-py3.10.egg-info",
+			"destination" : "local/lib/python3.10/dist-packages/marscalib-0.0.0-py3.10.egg-info",
 			"paths" : 
 			[
 				{
-					"from" : "cmake-build-debug/ament_cmake_python/sphere_calibration/sphere_calibration.egg-info",
+					"from" : "cmake-build-debug/ament_cmake_python/marscalib/marscalib.egg-info",
 					"to" : "."
 				}
 			],
@@ -531,11 +531,11 @@
 		{
 			"backtrace" : 9,
 			"component" : "Unspecified",
-			"destination" : "local/lib/python3.10/dist-packages/sphere_calibration",
+			"destination" : "local/lib/python3.10/dist-packages/marscalib",
 			"paths" : 
 			[
 				{
-					"from" : "sphere_calibration",
+					"from" : "marscalib",
 					"to" : "."
 				}
 			],
@@ -549,7 +549,7 @@
 		{
 			"backtrace" : 11,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"scripts/amg.py"
@@ -559,7 +559,7 @@
 		{
 			"backtrace" : 12,
 			"component" : "Unspecified",
-			"destination" : "lib/sphere_calibration",
+			"destination" : "lib/marscalib",
 			"paths" : 
 			[
 				"scripts/hough.py"
@@ -569,7 +569,7 @@
 		{
 			"backtrace" : 16,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh"
@@ -579,7 +579,7 @@
 		{
 			"backtrace" : 17,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/library_path.dsv"
@@ -592,7 +592,7 @@
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
 			[
-				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sphere_calibration"
+				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/marscalib"
 			],
 			"type" : "file"
 		},
@@ -602,14 +602,14 @@
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
 			[
-				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sphere_calibration"
+				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/marscalib"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 31,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
@@ -619,7 +619,7 @@
 		{
 			"backtrace" : 32,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/ament_prefix_path.dsv"
@@ -629,7 +629,7 @@
 		{
 			"backtrace" : 33,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
@@ -639,7 +639,7 @@
 		{
 			"backtrace" : 34,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/environment",
+			"destination" : "share/marscalib/environment",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/path.dsv"
@@ -649,7 +649,7 @@
 		{
 			"backtrace" : 36,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/local_setup.bash"
@@ -659,7 +659,7 @@
 		{
 			"backtrace" : 37,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/local_setup.sh"
@@ -669,7 +669,7 @@
 		{
 			"backtrace" : 38,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/local_setup.zsh"
@@ -679,7 +679,7 @@
 		{
 			"backtrace" : 39,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/local_setup.dsv"
@@ -689,7 +689,7 @@
 		{
 			"backtrace" : 40,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_environment_hooks/package.dsv"
@@ -702,14 +702,14 @@
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
 			[
-				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/packages/sphere_calibration"
+				"cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/packages/marscalib"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 47,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/cmake",
+			"destination" : "share/marscalib/cmake",
 			"paths" : 
 			[
 				"cmake-build-debug/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
@@ -719,18 +719,18 @@
 		{
 			"backtrace" : 48,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration/cmake",
+			"destination" : "share/marscalib/cmake",
 			"paths" : 
 			[
-				"cmake-build-debug/ament_cmake_core/sphere_calibrationConfig.cmake",
-				"cmake-build-debug/ament_cmake_core/sphere_calibrationConfig-version.cmake"
+				"cmake-build-debug/ament_cmake_core/marscalibConfig.cmake",
+				"cmake-build-debug/ament_cmake_core/marscalibConfig-version.cmake"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 49,
 			"component" : "Unspecified",
-			"destination" : "share/sphere_calibration",
+			"destination" : "share/marscalib",
 			"paths" : 
 			[
 				"package.xml"

@@ -38,8 +38,8 @@
 			}
 		]
 	},
-	"id" : "ament_cmake_python_copy_sphere_calibration::@6890427a1f51a3e7e1df",
-	"name" : "ament_cmake_python_copy_sphere_calibration",
+	"id" : "ament_cmake_python_copy_marscalib::@6890427a1f51a3e7e1df",
+	"name" : "ament_cmake_python_copy_marscalib",
 	"paths" : 
 	{
 		"build" : ".",
@@ -67,13 +67,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_copy_sphere_calibration",
+			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_copy_marscalib",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_copy_sphere_calibration.rule",
+			"path" : "cmake-build-debug/CMakeFiles/ament_cmake_python_copy_marscalib.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

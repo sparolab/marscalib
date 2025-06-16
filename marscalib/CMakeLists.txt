@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(sphere_calibration)
+project(marscalib)
 
 set(CMAKE_CXX_STANDARD 17)
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -107,5 +107,5 @@ install(
 ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS scripts/amg.py DESTINATION lib/${PROJECT_NAME})
 install(PROGRAMS scripts/hough.py DESTINATION lib/${PROJECT_NAME})
-ament_export_libraries(sphere_calibration)
+ament_export_libraries(marscalib)
 ament_package()

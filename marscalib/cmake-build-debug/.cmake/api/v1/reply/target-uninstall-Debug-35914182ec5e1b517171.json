@@ -80,7 +80,7 @@
 	[
 		{
 			"backtrace" : 10,
-			"id" : "sphere_calibration_uninstall::@6890427a1f51a3e7e1df"
+			"id" : "marscalib_uninstall::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "uninstall::@6890427a1f51a3e7e1df",

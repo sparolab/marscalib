@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdC/a.out
+        /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+        /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,7 +71,7 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_08d22
         [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_08d22.dir/CMakeCCompilerABI.c.o -c /snap/clion/338/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
@@ -164,7 +164,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4']
+        ignore line: [Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FvdlR4']
         ignore line: []
         ignore line: [Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_08d22]
         ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_08d22.dir/CMakeCCompilerABI.c.o -c /snap/clion/338/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
@@ -307,8 +307,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -318,7 +318,7 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_20450
         [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_20450.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/338/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
@@ -421,7 +421,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA']
+        ignore line: [Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sav2lA']
         ignore line: []
         ignore line: [Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_20450]
         ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_20450.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/338/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
@@ -564,8 +564,8 @@ events:
       - "/usr/local/share/pcl-1.14/PCLConfig.cmake:556 (find_external_library)"
       - "CMakeLists.txt:13 (find_package)"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -575,10 +575,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_3768a
-        [1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_3768a.dir/OpenMPTryFlag.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        [1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_3768a.dir/OpenMPTryFlag.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -589,7 +589,7 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3768a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3768a.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_3768a.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQStlgK.s
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_3768a.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQStlgK.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -643,8 +643,8 @@ events:
       - "/usr/local/share/pcl-1.14/PCLConfig.cmake:556 (find_external_library)"
       - "CMakeLists.txt:13 (find_package)"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -654,10 +654,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_22938
-        [1/2] /usr/bin/c++   -fopenmp -v -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_22938.dir/OpenMPTryFlag.cpp.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        [1/2] /usr/bin/c++   -fopenmp -v -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_22938.dir/OpenMPTryFlag.cpp.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -668,7 +668,7 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_22938.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_22938.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_22938.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fdiagnostics-color=always -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc74OVRy.s
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_22938.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fdiagnostics-color=always -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc74OVRy.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -726,8 +726,8 @@ events:
       - "/usr/local/share/pcl-1.14/PCLConfig.cmake:556 (find_external_library)"
       - "CMakeLists.txt:13 (find_package)"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -737,10 +737,10 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_bdb63
-        [1/2] /usr/bin/c++   -fopenmp -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_bdb63.dir/OpenMPCheckVersion.cpp.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        [1/2] /usr/bin/c++   -fopenmp -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_bdb63.dir/OpenMPCheckVersion.cpp.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
         [2/2] : && /usr/bin/c++ -fopenmp  CMakeFiles/cmTC_bdb63.dir/OpenMPCheckVersion.cpp.o -o cmTC_bdb63   && :
         
       exitCode: 0
@@ -760,8 +760,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -771,10 +771,10 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_a108d
-        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_a108d.dir/src.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr/src.c
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_a108d.dir/src.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVMZQr/src.c
         [2/2] : && /usr/bin/cc   CMakeFiles/cmTC_a108d.dir/src.c.o -o cmTC_a108d   && :
         
       exitCode: 0
@@ -792,8 +792,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -803,10 +803,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_264c0
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_264c0.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_264c0.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1QMB9/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_264c0.dir/test_mpi.c.o -o cmTC_264c0  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -824,8 +824,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -835,10 +835,10 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_8803b
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_8803b.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_8803b.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IAp3BA/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_8803b.dir/CheckFunctionExists.c.o -o cmTC_8803b  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so && :
         
       exitCode: 0
@@ -856,8 +856,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -867,10 +867,10 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_207f8
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_207f8.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_207f8.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DHNIhf/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_207f8.dir/CheckFunctionExists.c.o -o cmTC_207f8   && :
         
       exitCode: 0
@@ -888,8 +888,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -899,10 +899,10 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_decc9
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_decc9.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_decc9.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Creper/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_decc9.dir/CheckFunctionExists.c.o -o cmTC_decc9   && :
         
       exitCode: 0
@@ -920,8 +920,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -931,10 +931,10 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_1e1cf
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_1e1cf.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_1e1cf.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4Wxpw/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_1e1cf.dir/CheckFunctionExists.c.o -o cmTC_1e1cf   && :
         
       exitCode: 0
@@ -952,8 +952,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -963,10 +963,10 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_aa9a8
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_aa9a8.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_aa9a8.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKaCnR/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_aa9a8.dir/CheckFunctionExists.c.o -o cmTC_aa9a8   && :
         
       exitCode: 0
@@ -984,8 +984,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -995,10 +995,10 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_7ddb2
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_7ddb2.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg/CheckFunctionExists.c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_7ddb2.dir/CheckFunctionExists.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ApGBkg/CheckFunctionExists.c
         [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber  CMakeFiles/cmTC_7ddb2.dir/CheckFunctionExists.c.o -o cmTC_7ddb2  -lICE && :
         
       exitCode: 0
@@ -1016,8 +1016,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1027,10 +1027,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_f414e
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_f414e.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_f414e.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IlVBFR/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f414e.dir/test_mpi.c.o -o cmTC_f414e  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1048,8 +1048,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1059,10 +1059,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_84acd
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_84acd.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_84acd.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQ7QI5/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_84acd.dir/test_mpi.c.o -o cmTC_84acd  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1073,8 +1073,8 @@ events:
       - "/usr/local/share/pcl-1.14/Modules/FindOpenMP.cmake:514 (_OPENMP_GET_SPEC_DATE)"
       - "CMakeLists.txt:28 (find_package)"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1084,10 +1084,10 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeTmp'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_d8df8
-        [1/2] /usr/bin/cc   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_d8df8.dir/OpenMPCheckVersion.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+        [1/2] /usr/bin/cc   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_d8df8.dir/OpenMPCheckVersion.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
         [2/2] : && /usr/bin/cc -fopenmp  CMakeFiles/cmTC_d8df8.dir/OpenMPCheckVersion.c.o -o cmTC_d8df8   && :
         
       exitCode: 0
@@ -1109,8 +1109,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1120,10 +1120,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_5ed0d
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_5ed0d.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_5ed0d.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzh5NR/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5ed0d.dir/test_mpi.c.o -o cmTC_5ed0d  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1141,8 +1141,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1152,10 +1152,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_f8b2d
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_f8b2d.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_f8b2d.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rVRX1d/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f8b2d.dir/test_mpi.c.o -o cmTC_f8b2d  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1173,8 +1173,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1184,10 +1184,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_ceee7
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_ceee7.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_ceee7.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxcDJO/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ceee7.dir/test_mpi.c.o -o cmTC_ceee7  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1209,8 +1209,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1220,10 +1220,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_7ba25
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_7ba25.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_7ba25.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3PHYBz/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_7ba25.dir/test_mpi.c.o -o cmTC_7ba25  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1241,8 +1241,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1252,10 +1252,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_b0855
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_b0855.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_b0855.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z564lJ/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b0855.dir/test_mpi.c.o -o cmTC_b0855  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1273,8 +1273,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1284,10 +1284,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_a911b
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_a911b.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_a911b.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HIeqhE/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a911b.dir/test_mpi.c.o -o cmTC_a911b  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1309,8 +1309,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1320,10 +1320,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_c4264
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_c4264.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_c4264.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erakVt/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c4264.dir/test_mpi.c.o -o cmTC_c4264  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1341,8 +1341,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1352,10 +1352,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_dd8a6
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_dd8a6.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_dd8a6.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQpZAH/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_dd8a6.dir/test_mpi.c.o -o cmTC_dd8a6  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0
@@ -1373,8 +1373,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV"
-      binary: "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV"
+      source: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV"
+      binary: "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1384,10 +1384,10 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV'
+        Change Dir: '/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV'
         
         Run Build Command(s): /snap/clion/338/bin/ninja/linux/x64/ninja -v cmTC_b7e57
-        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_b7e57.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV/test_mpi.c
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_b7e57.dir/test_mpi.c.o -c /home/jsh/marscalib_ws/src/marscalib/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-syRmpV/test_mpi.c
         [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b7e57.dir/test_mpi.c.o -o cmTC_b7e57  /usr/lib/x86_64-linux-gnu/libmpi.so && :
         
       exitCode: 0

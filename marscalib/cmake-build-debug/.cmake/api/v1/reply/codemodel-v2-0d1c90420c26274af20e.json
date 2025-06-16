@@ -38,7 +38,7 @@
 					[
 						0
 					],
-					"name" : "sphere_calibration",
+					"name" : "marscalib",
 					"targetIndexes" : 
 					[
 						0,
@@ -59,16 +59,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "ament_cmake_python_build_sphere_calibration_egg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ament_cmake_python_build_sphere_calibration_egg-Debug-3816cea0c932a99464ad.json",
-					"name" : "ament_cmake_python_build_sphere_calibration_egg",
+					"id" : "ament_cmake_python_build_marscalib_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_marscalib_egg-Debug-3816cea0c932a99464ad.json",
+					"name" : "ament_cmake_python_build_marscalib_egg",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "ament_cmake_python_copy_sphere_calibration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ament_cmake_python_copy_sphere_calibration-Debug-2db70b8fd24c2da1a7cb.json",
-					"name" : "ament_cmake_python_copy_sphere_calibration",
+					"id" : "ament_cmake_python_copy_marscalib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_marscalib-Debug-2db70b8fd24c2da1a7cb.json",
+					"name" : "ament_cmake_python_copy_marscalib",
 					"projectIndex" : 0
 				},
 				{
@@ -115,9 +115,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "sphere_calibration_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sphere_calibration_uninstall-Debug-534674082e1e3d955d8e.json",
-					"name" : "sphere_calibration_uninstall",
+					"id" : "marscalib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marscalib_uninstall-Debug-534674082e1e3d955d8e.json",
+					"name" : "marscalib_uninstall",
 					"projectIndex" : 0
 				},
 				{
@@ -140,8 +140,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug",
-		"source" : "/home/jsh/marscalib_ws/src/sphere_calibration"
+		"build" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug",
+		"source" : "/home/jsh/marscalib_ws/src/marscalib"
 	},
 	"version" : 
 	{

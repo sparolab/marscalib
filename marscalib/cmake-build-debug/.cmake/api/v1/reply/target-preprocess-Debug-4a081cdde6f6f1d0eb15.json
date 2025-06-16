@@ -932,7 +932,7 @@
 		[
 			{
 				"backtrace" : 2,
-				"path" : "lib/sphere_calibration"
+				"path" : "lib/marscalib"
 			}
 		],
 		"prefix" : 

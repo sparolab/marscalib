@@ -2,8 +2,8 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name='sphere_calibration',
+    name='marscalib',
     version='0.0.0',
     packages=find_packages(
-        include=('sphere_calibration', 'sphere_calibration.*')),
+        include=('marscalib', 'marscalib.*')),
 )

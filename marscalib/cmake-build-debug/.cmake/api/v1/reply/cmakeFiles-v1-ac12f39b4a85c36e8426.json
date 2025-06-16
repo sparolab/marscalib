@@ -8261,8 +8261,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/jsh/marscalib_ws/src/sphere_calibration/cmake-build-debug",
-		"source" : "/home/jsh/marscalib_ws/src/sphere_calibration"
+		"build" : "/home/jsh/marscalib_ws/src/marscalib/cmake-build-debug",
+		"source" : "/home/jsh/marscalib_ws/src/marscalib"
 	},
 	"version" : 
 	{
