@@ -86,6 +86,7 @@
         ...
     ```
 
+<p align="center"><img src="fig/data.png") alt="animated" width="75%" /></p>
 <p align="right">(<a href="#readme-table">back to table</a>)</p>
 
 <br/>
