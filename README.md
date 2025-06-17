@@ -26,16 +26,19 @@
 
 <a name="readme-table"></a>
 
+
+### 🚀 Code will be uploaded soon!
+
+<br/>
+<br/>
+
 ## NEWS
 * [June, 2025] MARSCalib is accepted in IROS!!
 
 <br/>
 <br/>
 
-## 🚀 Code will be uploaded soon!
 
-<br/>
-<br/>
 
 ##  ✉️ Contact
 * **Seokhwan Jeong     eric5709@inha.edu**
