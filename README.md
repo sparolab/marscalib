@@ -32,7 +32,7 @@
 <br/>
 <br/>
 
-## NEWS
+## 🗞 NEWS
 * [June, 2025] MARSCalib is accepted in IROS!!
 
 <br/>
