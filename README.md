@@ -1,7 +1,7 @@
 <div align="center">
   <h1>MARSCalib</h1>
-  <a href="https://github.com/sparolab/solid/tree/master/"><img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /></a>
-  <a href="https://github.com/sparolab/solid/tree/master"><img src="https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54" /></a>
+  <a href="https://github.com/sparolab/marscalib/tree/master/"><img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /></a>
+  <a href="https://github.com/sparolab/marscalib/tree/master"><img src="https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54" /></a>
   <a href="https://sparolab.github.io/research/marscalib/"><img src="https://github.com/sparolab/Joint_ID/blob/main/fig/badges/badge-website.svg" alt="Project" /></a>
   <a href="https://arxiv.org/abs/2507.17130"><img src="https://img.shields.io/badge/arXiv-2408.07330-b31b1b.svg?style=flat-square" alt="Arxiv" /></a>
 
