@@ -1,0 +1,125 @@
+name: Linux / MacOS - c++
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - test: unit_tests
+            os: ubuntu-22.04
+            access: row_major
+            ensure: default_panic
+            compiler: clang
+          - test: unit_tests
+            os: ubuntu-24.04
+            access: col_major
+            ensure: default_panic
+            compiler: clang
+          - test: unit_tests
+            os: ubuntu-22.04
+            access: col_major
+            ensure: default_panic
+            compiler: gcc
+          - test: unit_tests
+            os: ubuntu-24.04
+            access: col_major
+            ensure: default_panic
+            compiler: gcc
+          - test: unit_tests
+            os: macos-13
+            access: col_major
+            ensure: default_panic
+            compiler: clang
+          - test: unit_tests
+            os: macos-14
+            access: col_major
+            ensure: default_panic
+            compiler: clang
+          - test: install_test
+            os: ubuntu-22.04
+            access: col_major
+            ensure: default_panic
+            compiler: clang
+          - test: install_test
+            os: ubuntu-22.04
+            access: col_major
+            ensure: custom_handler
+            compiler: clang
+          - test: install_test
+            os: macos-14
+            access: col_major
+            ensure: default_panic
+            compiler: clang
+          - test: install_test
+            os: macos-14
+            access: col_major
+            ensure: custom_handler
+            compiler: clang
+
+      fail-fast: false
+
+    steps:
+      - name: Set default value for for environment variables
+        run: |
+          echo "ROW_MAJOR_DEFAULT=OFF" >> $GITHUB_ENV
+          echo "SOPHUS_ENABLE_ENSURE_HANDLER=OFF" >> $GITHUB_ENV
+
+      - name: Update ROW_MAJOR_DEFAULT=ON if condition is met
+        if: matrix.access == 'row_major'
+        run: echo "ROW_MAJOR_DEFAULT=ON" >> $GITHUB_ENV
+
+      - name: Update SOPHUS_ENABLE_ENSURE_HANDLER=ON if condition is met
+        if: matrix.ensure == 'custom_handler'
+        run: echo "SOPHUS_ENABLE_ENSURE_HANDLER=ON" >> $GITHUB_ENV
+
+      - uses: actions/checkout@v2
+
+      - name: ccache
+        uses: hendrikmuhs/ccache-action@v1
+        with:
+          key: ${{ runner.os }}-${{ matrix.os }}-${{ matrix.access }}-${{ matrix.ensure }}-${{ matrix.compiler }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.os }}-${{ matrix.access }}-${{ matrix.ensure }}-${{ matrix.compiler }}
+
+      - name: Install dependencies (Linux incl. Ceres)
+        run: ./scripts/install_ubuntu_deps_incl_ceres.sh
+        if: matrix.os == 'ubuntu-22.04' || matrix.os == 'ubuntu-24.04'
+
+      - name: Install dependencies (Mac OS incl. Ceres)
+        run: ./scripts/install_osx_deps_incl_ceres.sh
+        if: matrix.os == 'macos-14' || matrix.os == 'macos-13'
+
+      - name: Build (gcc) and run tests
+        run: ./scripts/run_cpp_tests_gcc.sh
+        if: matrix.test == 'unit_tests' && matrix.compiler == 'gcc'
+
+      - name: Build (clang) and run tests
+        run: ./scripts/run_cpp_tests_clang.sh
+        if: matrix.test == 'unit_tests' && matrix.compiler == 'clang'
+
+      - name: Install test
+        run: |
+          echo "Install test"
+          mkdir build_dir
+          cd build_dir
+          cmake -DCMAKE_CXX_COMPILER_LAUNCHER=ccache .. -DBUILD_SOPHUS_TESTS=Off -DCMAKE_COMPILE_WARNING_AS_ERROR=On -DSOPHUS_ENABLE_ENSURE_HANDLER=$SOPHUS_ENABLE_ENSURE_HANDLER
+          # Ubuntu builds via Github actions run on 2-core virtual machines
+          make -j2
+          sudo make install
+          cd ..
+          cd examples
+          mkdir build_dir
+          cd build_dir
+          cmake ..
+          make
+          ls -la
+          ./hello_so3
+        if: matrix.test == 'install_test'
