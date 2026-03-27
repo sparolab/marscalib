@@ -51,17 +51,15 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(preprocess src/preprocess.cpp)
-ament_target_dependencies(preprocess rclcpp rosbag2_cpp cv_bridge pcl_conversions)
+ament_target_dependencies(preprocess rclcpp rosbag2_cpp cv_bridge pcl_conversions OpenCV)
 
 add_executable(lidar src/lidar_center.cpp)
 ament_target_dependencies(lidar rclcpp PCL)
 
 
 add_executable(camera src/camera_center.cpp)
-ament_target_dependencies(camera rclcpp PCL)
+ament_target_dependencies(camera rclcpp PCL OpenCV)
 
-add_executable(camera_user src/camera_center_user.cpp)
-ament_target_dependencies(camera_user rclcpp PCL)
 
 add_executable(rt src/Rt.cpp)
 ament_target_dependencies(rt rclcpp PCL)
@@ -73,7 +71,6 @@ ament_target_dependencies(rt rclcpp PCL)
 target_link_libraries(preprocess ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES} ${cv_bridge_LIBRARIES})
 target_link_libraries(lidar ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
 target_link_libraries(camera ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
-target_link_libraries(camera_user ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${rclcpp_LIBRARIES})
 target_link_libraries(rt fmt ${PCL_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES} ${CERES_LIBRARIES} ${GTSAM_LIBRARIES}  ${rclcpp_LIBRARIES})
 
 
@@ -92,11 +89,8 @@ install(
         TARGETS
         preprocess
         camera
-        camera_user
         lidar
         rt
-        color
-        vlp
         DESTINATION
         lib/${PROJECT_NAME}
 )
