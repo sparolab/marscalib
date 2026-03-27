@@ -111,7 +111,7 @@
     * Default Vit-h model: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
     * If you want to use other model, please refer to the relevant page : https://github.com/facebookresearch/segment-anything
 
-  * Place downloaded model(pth) file in ``` ./MARSCalib/segment_anything/model/ ```.
+  * Place downloaded model(pth) file in ``` ./marscalib/segment_anything/model/ ```.
 
 <br/>
 
@@ -134,7 +134,7 @@
       --image_topic /camera/color/image_raw \
       --points_topic /ouster/points
 ```
-  * ❗Fill intrinsic parameters of camera in file ``` ./input_preprocess/intrinsic.json ```.
+  * ❗Fill intrinsic parameters of camera in output preprocess file in json file type.
 <br/>
 
 
