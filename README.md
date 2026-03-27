@@ -163,18 +163,18 @@
 <br/>
 
 **4. Range image generation & Hough transform**
-  * Generate range image from the accumulated pointcloud and search for circle in the range image. The points inside the detected circle consist sphere.
+  * Generate range image from the accumulated pointcloud and search for circle in the range image. The points inside the detected circle consist sphere. This process may take some time.
   * Enter LiDAR type. 
     * o : ouster
     * m : mid360
     * s : mlx
 ```
-    ros2 run hough.py <preprocess folder location> <LiDAR type>
+    ros2 run marscalib hough.py <preprocess folder location> <LiDAR type>
 ```
 
   * Example:
 ```
-    ros2 run hough.py ~/data/sphere_preprocess o
+    ros2 run marscalib hough.py ~/data/sphere_preprocess o
 ```
 
 <br/>
@@ -189,12 +189,12 @@
   * Enter target's radius.
   * If you want to observe the output of every stage, add "-v" in the command line.
 ```
-    ros2 run marscalib ouster <preprocess folder location> <LiDAR type> <target's radius>
+    ros2 run marscalib lidar <preprocess folder location> <LiDAR type> <target's radius>
 ```
 
   * Example
 ```
-    ros2 run marscalib ouster ~/data/sphere_preprocess o 0.1 -v
+    ros2 run marscalib lidar ~/data/sphere_preprocess o 0.1 -v
 ```
 <br/>
 
